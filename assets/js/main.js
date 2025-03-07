@@ -12,21 +12,13 @@ AOS.init({
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  // Definir limites para o SENAI Presidente Prudente
-  var bounds = L.latLngBounds(
-    [-22.122, -51.408], // Canto superior esquerdo
-    [-22.119, -51.403]  // Canto inferior direito
-  );
 
-  // Criar o mapa travado nos limites do SENAI
-  var map = L.map('map', {
-    center: [-22.1206, -51.4059], // Coordenadas do SENAI
-    zoom: 17,  // Zoom inicial
-    minZoom: 17, // Zoom mínimo permitido
-    maxZoom: 19, // Zoom máximo permitido
-    maxBounds: bounds, // Impede que o usuário vá para fora dessa área
-    maxBoundsViscosity: 1.0 // Evita que o mapa "escape" dos limites
-  });
+// Criar o mapa 
+var map = L.map('map', {
+  center: [-22.1256, -51.3925], // Coordenadas do centro de Presidente Prudente
+  zoom: 13,  
+});
+
 
   // Adicionar os tiles do OpenStreetMap
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {

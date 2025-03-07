@@ -109,7 +109,7 @@ img {
 }
 
 .navbar-nav .nav-link.active {
-    color:rgb(12, 129, 28);
+    color:rgb(57, 218, 209);
 }
 
 
@@ -123,8 +123,8 @@ img {
 }
 
 .btn-brand {
-    background-color:rgb(12, 129, 28) ;
-    border-color:rgb(12, 129, 28) ;
+    background-color:rgb(57, 218, 209) ;
+    border-color:rgb(57, 218, 209) ;
     color: white;
 }
 
@@ -132,8 +132,8 @@ img {
 
 .btn-brand:hover {
     background-color: rgb(255, 255, 255);
-    border-color:rgb(12, 129, 28);
-    color: rgb(12, 129, 28);
+    border-color:rgb(157, 218, 209);
+    color: rgb(57, 218, 209);
 }
 
 
